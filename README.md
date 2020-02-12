@@ -56,7 +56,7 @@
             "subtitle":"some description",
             "image_url":"https://someimage.jpg",
             "shadow": false, // type: boolean, adds an shadow overlay on the image for visiblity of text
-            "preview": 'landscape', // type: string, default: landscape, values: (landscape | square), set the ratio of                                         // images to display in carousal card
+            "preview": 'landscape', // type: string, default: landscape, values: (landscape | square), set the ratio of images to display in carousal card
             "card_style": 'carousel' // type: string, values : (carousel | slideshow | infocard), default: carousel
             "buttons":[ // maximum three buttons
                 {
@@ -166,7 +166,7 @@
     {
       "template_type":"go_to",
       "go_to_blocks": ["welcome", "default", "someblock"], // type: list of strings, valid list of block names in that bot
-      "execution_type": "sequentially", // type: string, default: sequentially , values: (sequentially | randomly), if                                               // sequentially is set all bocks in the list will be executed, else randomly only                                           // one block will run 
+      "execution_type": "sequentially", // type: string, default: sequentially , values: (sequentially | randomly), if sequentially is set all bocks in the list will be executed, else randomly only one block will run 
     }
   ]
 }
