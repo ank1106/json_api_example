@@ -55,6 +55,9 @@
             "title":"some title",
             "subtitle":"some description",
             "image_url":"https://someimage.jpg",
+            "shadow": false, // type: boolean, adds an shadow overlay on the image for visiblity of text
+            "preview": 'landscape', // type: string, default: landscape, values: (landscape | square), set the ratio of                                         // images to display in carousal card
+            "card_style": 'carousel' // type: string, values : (carousel | slideshow | infocard), default: carousel
             "buttons":[ // maximum three buttons
                 {
                   "type":"url",
@@ -87,6 +90,8 @@
     {
       "template_type":"video", // “image” | “audio” | “video”
       "url":"https://www.youtube.com/watch?v=-JLewvWBkCw",
+      "full_width": false, // type: boolean, 
+      "background_color": "#fff",
       "button":{
         "type":"url",
         "url":"https://digital.makerobos.com",
@@ -166,4 +171,3 @@
   ]
 }
 ```
-
